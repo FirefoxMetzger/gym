@@ -1,4 +1,5 @@
 # A Dockerfile that sets up a full Gym install
+FROM ubuntu:14.04
 
 RUN apt-get update \
     && apt-get install -y libav-tools \
